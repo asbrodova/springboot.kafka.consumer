@@ -1,4 +1,4 @@
-package dev.asbrodova.springboot.kafka.consumer;
+package dev.asbrodova.springboot.kafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

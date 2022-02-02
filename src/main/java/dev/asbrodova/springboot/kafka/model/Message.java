@@ -1,10 +1,13 @@
-package dev.asbrodova.springboot.kafka.consumer.model;
+package dev.asbrodova.springboot.kafka.model;
 
 public class Message {
 
     private String subject;
 
     private String msgText;
+
+    public Message() {
+    }
 
     public Message(String subject, String msgText) {
         this.subject = subject;

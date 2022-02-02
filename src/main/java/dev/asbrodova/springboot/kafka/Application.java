@@ -1,4 +1,4 @@
-package dev.asbrodova.springboot.kafka.consumer;
+package dev.asbrodova.springboot.kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

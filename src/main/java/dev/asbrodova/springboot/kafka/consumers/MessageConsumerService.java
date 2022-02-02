@@ -1,8 +1,9 @@
-package dev.asbrodova.springboot.kafka.consumer.consumers;
+package dev.asbrodova.springboot.kafka.consumers;
 
-import dev.asbrodova.springboot.kafka.consumer.model.Message;
+import dev.asbrodova.springboot.kafka.model.Message;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @Service
 public class MessageConsumerService {
